@@ -37,7 +37,7 @@ System.out.println("test1");
 	@Test
 	public void test3() {
 		int result=obj.sum(new int[] {1,2,3,3});
-		assertEquals(9,result);
+		assertEquals(6,result);
 		System.out.println("test3");
 	}
 	
